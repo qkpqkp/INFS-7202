@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Finite Video </title>
+  </head>
+
+  <div class='container'>
+    <body class='gray'>
+      <div id='subnav' class='centered'>
+        <span>
+          <a href='/'>
+            <img id='logo' src='logo.png' alt='BookBrain Logo'>
+          </a>
+          <a class='subnav-hyperlinks' href='/books'>
+              Books
+          </a>
+        </span>
+      </div>
+
+      <div>
+        <img id='book-background' src='book.png' alt='HomePage Book'>
+		<div id='search'>
+          <input type='text' placeholder="Search for a video or user">
+        </div>
+
+    
+      </div>
+
+    </div>
+  </body>
+</html>
+
+<style>
+
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+#subnav {
+  max-height: 7em;
+  height: 5%;
+}
+
+.subnav-hyperlinks {
+  float: right;
+  text-align: center;
+  max-height: 6em;
+  padding: 1em;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1.5em;
+}
+
+#logo {
+  padding: 1em;
+  max-height: 10%;
+  width: auto;
+  height: 90px;
+}
+
+#book-background {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+
+#search {
+  position: absolute;
+  text-align: center;
+  font-size: 17px;
+  width: 30%;
+  top: 10%;
+  left: 50%;
+  text-decoration: none;
+  transform: translate(-50%, -50%);
+}
+
+#search input[type=text] {
+  width: 100%;
+  height: 20px;
+  border: 3px solid #00B4CC;
+  float: left;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gray {
+  background-color: #dfdfdf;
+}
+</style>
+
+<script>
+</script>
